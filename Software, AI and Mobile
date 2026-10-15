@@ -1,1 +1,21 @@
+Software
+OAuth 2.0 and OpenID Connect have different purposes.
+OAuth 2.0 allows an application to get limited access to protected resources. 
+OpenID Connect is an addition to, and enhancement of, OAuth 2.0 which introduces an identity layer to this protocol and facilitates applications to verify the identity of a user.
+OpenID Connect can be used for user login in the national login service and OAuth 2.0 can be used for obtaining permission to access other resources.
+Resource: OpenID Connect Core 1.0 - https://openid.net/specs/openid-connect-core-1_0.html
 
+AI
+The NIST AI Risk Management Framework can assist the authority in pre-managing risks when implementing the AI model to identify suspicious logins.
+The authority should experiment on the suitability and validity of the model and look for any unfair results, privacy issues and security risks.
+It should also check false alarms and cases where real attacks are missed.
+After deployment, the model should be monitored and when necessary, people should review important decisions.
+Resource: NIST AI Risk Management Framework FAQs - https://www.nist.gov/itl/ai-risk-management-framework/ai-risk-management-framework-faqs 
+
+Mobile
+Android restricts the access to what an app can do.
+Certain permissions, like camera or location, need to be requested from the user during the application's runtime.
+The app should provide a reason for the permission and should only request permissions when they are necessary to the functionality.
+If user does not agree, the app should provide other features to operate when possible.
+A government login app shouldn't request permissions that aren't related to its primary purpose.
+Resource: Request runtime permissions - https://developer.android.com/training/permissions/requesting
