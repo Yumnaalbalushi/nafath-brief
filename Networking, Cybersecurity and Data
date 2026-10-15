@@ -1,1 +1,21 @@
+Networking
+The DNS over HTTPS (DoH) protocol allows the DNS queries to be transmitted over an encrypted HTTPS connection to a DNS resolver. 
+This is to ensure that queries and responses cannot be easily noticed by anyone who is watching the network. 
+DoH does not, however, provide privacy of ALL internet activity nor do they obscure ALL connections.
+The DNS resolver can still be seen and other data can provide information about the user's activity.
+DoH is helpful, but not a full security solution.
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
 
+Cybersecurity
+Phishing resistant authentication adds an added layer of security to prevent users from being lured onto fraudulent sites that request user credentials. 
+With a correct implementation of passkeys and security keys with an appropriate FIDO2/WebAuthn mechanism, phishing resistance can be achieved. 
+NIST guidance deems passwords, SMS codes, and manually-entered codes from an authenticator app as non-phishing-resistant. 
+With strong authentication, the risk of attackers being able to gain access to citizens' accounts can be mitigated for a national login service.
+Resource: NIST SP 800-63B - Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b.html
+
+Data
+The authority is required to abide by the Personal Data Protection Law of Oman, Royal Decree 6/2022 and its Executive Regulation. 
+It should convey the way the personal data is used by citizens, and it should secure the data from unauthorized access. 
+The authority should also honour people's rights, adhere to consents as necessary and report on data breaches as per applicable requirements.
+Before collecting or sharing personal information, it should refer to the law and regulations.
+Resource: Personal Data Protection - MTCIT - https://mtcit.gov.om/sectors/governance/personal
