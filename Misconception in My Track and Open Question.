@@ -1,1 +1,11 @@
+Misconception in My Track 
+One false assumption is that using DNS over HTTPS will make the entire Internet transaction private. 
+In fact, DoH encrypts queries of the DNS between the user's device and the DNS resolver. 
+This makes it more difficult for monitoring personnel to read those queries. 
+It does not obscure all trails or render the user totally anonymous, however. 
+The DNS resolver can still see the queries and other network information is still available. 
+DoH should be treated as a first line of defense, not as a last line of defense, which is why.
 
+Open Question
+How can the authority select and supervise trusted DNS over HTTPS (DoH) resolvers to ensure citizens' privacy, simultaneous speed and reliability of access to government services? 
+I would also like to know how the authority can identify any security risks in the DNS that would not require the collection of any unnecessary personal data or citizens browsing activity.
