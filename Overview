@@ -6,3 +6,4 @@ Networking makes it possible for devices to link to online services.
 While DNS over HTTPS (DoH) is a beneficial measure to prevent DNS queries from being easily monitored during their journey over the network, it is not a means of hiding all user activity. 
 Cybersecurity measures are put in place to safeguard accounts from attackers, and data protection measures are implemented to keep citizens' data safe. Combined, these six areas can improve the safety and reliability of the service. 
 Being part of the networking design, it is crucial to grasp both advantages and limitations of DoH.
+In case of my Networking track, I want to know how DoH can provide privacy while still enabling networks to detect malicious DNS activity.
